@@ -1,29 +1,87 @@
-# Heart Disease Prediction
+# 🫀 Heart Disease Prediction System (ML)
 
-This is a web application component built with Streamlit that allows users to predict the presence of heart disease. The application utilizes a machine learning model trained on a heart disease dataset to provide accurate predictions based on user input.
+A **Machine Learning-based Heart Disease Prediction System** that predicts the presence of heart disease based on medical parameters like **Age, Blood Pressure, Cholesterol Level, and ECG results**.
 
-## About the Project
+## ✅ Features
 
-This machine learning project focuses on predicting the presence of heart disease in individuals based on various medical attributes. The project utilizes a dataset containing information about patients and their heart health, and employs a predictive model to classify individuals as having heart disease or not.
+- **Trained using Logistic Regression (Optimized)**
+- **Includes a Web App (Streamlit) for easy usage**
+- **Interactive user interface for parameter input**
 
-- ### Dataset
-The heart disease prediction model is trained on the [Heart Disease dataset](https://github.com/dhrupad17/Heart-Disease-Prediction/blob/main/heart_disease_data.csv) obtained from the UCI Machine Learning Repository. This dataset consists of 303 instances, with each instance containing 14 attributes such as age, sex, chest pain type, cholesterol level, and more. The target variable indicates the presence or absence of heart disease.
+---
 
-- ### Methodology
-   - Data Preprocessing: The dataset is preprocessed by handling missing values, encoding categorical variables, and performing feature scaling if necessary.
-   - Feature Selection: Relevant features are selected to train the prediction model. This step involves exploring correlations, conducting statistical analyses, or      employing feature importance techniques.
-   - Model Selection and Training: Machine learning algorithm such as logistic regression is used to train on the preprocessed dataset to create a predictive model.
-   - Model Evaluation: The trained model is evaluated using appropriate evaluation metrics such as accuracy, precision, recall, and F1-score. Cross-validation            techniques may be employed to assess the model's generalization performance.
-   - Hyperparameter Tuning: If necessary, hyperparameter tuning techniques such as grid search or random search are utilized to optimize the model's performance by        fine-tuning the hyperparameters.
-   - Deployment: The final trained model is deployed in a user-friendly web application using Streamlit, allowing users to input their attributes and receive a           prediction regarding the presence of heart disease.
+## 📂 Project Structure
 
-- ### Features
-  - Users can input their attributes such as age, sex, chest pain type, resting blood pressure, cholesterol level, and more into the web application.
-  - The application employs the trained model to predict the likelihood of heart disease based on the provided information.
-  - The prediction result is displayed, indicating whether the individual is likely to have heart disease or not.
+```
+├── heart_disease_data.csv     # Dataset for model training
+├── Prediction.ipynb           # Notebook with data analysis & model training
+├── app.py                     # Streamlit UI for predictions
+├── heart_disease_model.pkl    # Saved trained model
+├── requirements.txt           # Dependencies
+├── README.md                  # Documentation
+```
 
-## Website OverView:-
+---
 
-### ```Click Here to Visit the Website 👉``` [Tap to Diagonise](https://dhrupad17-heart-disease-prediction-app-9n6wv2.streamlit.app/)
+## ⚡ Installation & Setup
 
+### 1️⃣ Clone the Repository
 
+```bash
+git clone https://github.com/ishansavaliya/Heart-Disease-Prediction.git
+cd Heart-Disease-Prediction
+```
+
+### 2️⃣ Install Dependencies
+
+First, install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🌍 Running the Streamlit Web App
+
+Launch the web app using:
+
+```bash
+streamlit run app.py
+```
+
+➡️ Open the browser URL (usually http://localhost:8501)  
+➡️ Enter patient parameters  
+➡️ Get heart disease prediction instantly!
+
+---
+
+## 📊 Model Performance
+
+The model has been trained using Logistic Regression on the UCI Heart Disease dataset and has demonstrated reliable performance in predicting heart disease.
+
+---
+
+## 🛠 Future Improvements
+
+- 🔹 Add more advanced ML models for comparison
+- 🔹 Implement feature importance visualization
+- 🔹 Add ability to save patient reports
+
+---
+
+## 📌 Parameters Used for Prediction
+
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure
+- Cholesterol Level
+- Fasting Blood Sugar
+- Resting ECG Results
+- Maximum Heart Rate
+- Exercise Induced Angina
+- ST Depression
+- ST Segment Slope
+- Number of Major Vessels
+- Thalassemia
+
+🫀 **Take care of your heart with AI assistance!** 💓
