@@ -92,7 +92,8 @@ The model has been trained using Logistic Regression on the UCI Heart Disease da
 
 ---
 
-<img width="1440" alt="Screenshot 2025-04-17 at 8 14 25 PM" src="https://github.com/user-attachments/assets/bf1049cf-1515-4a4b-bad9-5822b9ef42d8" />
+<img width="1386" alt="Screenshot 2025-04-17 at 8 22 00 PM" src="https://github.com/user-attachments/assets/4fdc4d70-16c8-4c76-88bb-6e9ee3195b03" />
+
 
 ---
 
