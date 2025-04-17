@@ -86,6 +86,12 @@ The model has been trained using Logistic Regression on the UCI Heart Disease da
 
 🫀 **Take care of your heart with AI assistance!** 💓
 
+---
+
 <img width="1440" alt="Screenshot 2025-04-17 at 8 14 25 PM" src="https://github.com/user-attachments/assets/bf1049cf-1515-4a4b-bad9-5822b9ef42d8" />
+
+---
+
 <img width="601" alt="Screenshot 2025-04-17 at 8 14 04 PM" src="https://github.com/user-attachments/assets/6423f3c5-58c1-4521-8198-c120f5575e72" />
 
+---
